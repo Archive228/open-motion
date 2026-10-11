@@ -11,8 +11,8 @@ NO TERMINAL (free plan)?  Give me index.html and content.json as files. I
 run steps 4-5 myself and send you out/sheet.png and the check output.
 
 1 ASK  Before you build, ask me: who will watch it, where it plays (16:9,
-9:16 or 1:1) and how long it runs. Use only the report, data and images I
-attach. Never invent a number, a name or a quote.
+9:16, 4:5 or 1:1) and how long it runs. Use only the report, data and
+images I attach. Never invent a number, a name or a quote.
 
 2 CONTENT  Put every word, number, colour and scene length in content.json.
 index.html fetches it into window.CONTENT (window.ready = that Promise) and
@@ -21,8 +21,8 @@ hard-codes none of them: one edit there is one change on screen.
 3 BUILD  One index.html with window.DURATION, window.SIZE = [w, h] and
 window.seek(t), a pure function of t. No CSS animations, timers, Date.now
 or unseeded random. One idea per scene, 3-5 s each; numbers count up,
-charts draw in. No text under 40 px at 1920 wide. With a terminal, start
-from motion/example.
+charts draw in. No text under 2% of the frame width. With a terminal,
+read motion/example first for the contract; the look is yours.
 
 4 LOOK  node motion/scripts/look.mjs . --sheet 12
 Open out/sheet.png and say what you see in every frame. Fix what is cut

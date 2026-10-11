@@ -69,6 +69,7 @@ node scripts/check.mjs example                 # PASS / WARN / FAIL per check
 - It is not Claude Motion and has no editor: you change the animation by editing `content.json` or by asking Claude.
 - It makes no sound. For sound effects placed from the timeline, see [opus-sound-layer](https://github.com/Bodila51/opus-sound-layer).
 - The checks measure layout and timing. They do not judge whether the animation is good; look at the contact sheet and the video yourself.
+- The content check reads words of three or more letters. A number typed straight into `index.html` passes it.
 
 ## Licence
 
