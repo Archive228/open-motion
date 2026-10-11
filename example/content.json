@@ -1,0 +1,61 @@
+{
+  "size": [1920, 1080],
+  "fps": 30,
+  "colors": {
+    "bg": "#0D1015",
+    "ink": "#F4F1EA",
+    "dim": "#8D929C",
+    "accent": "#FF7A45",
+    "accent2": "#5AD1B3"
+  },
+  "note": "Sample data",
+  "scenes": [
+    {
+      "id": "title",
+      "seconds": 3.5,
+      "kicker": "Harbor & Pine",
+      "title": "Q3 2026 at a glance"
+    },
+    {
+      "id": "revenue",
+      "seconds": 4.5,
+      "label": "Revenue",
+      "value": 4.8,
+      "prefix": "$",
+      "suffix": "M",
+      "decimals": 1,
+      "delta": "+23% vs Q2"
+    },
+    {
+      "id": "chart",
+      "seconds": 4.5,
+      "title": "Four quarters of growth",
+      "prefix": "$",
+      "suffix": "M",
+      "decimals": 1,
+      "bars": [
+        { "label": "Q4 2025", "value": 2.6 },
+        { "label": "Q1 2026", "value": 3.1 },
+        { "label": "Q2 2026", "value": 3.9 },
+        { "label": "Q3 2026", "value": 4.8 }
+      ]
+    },
+    {
+      "id": "facts",
+      "seconds": 4.5,
+      "title": "What moved",
+      "items": [
+        { "value": 1240, "suffix": "", "label": "new customers" },
+        { "value": 61, "suffix": "%", "label": "repeat orders" },
+        { "value": 26, "suffix": " min", "label": "average delivery" }
+      ]
+    },
+    {
+      "id": "next",
+      "seconds": 3.5,
+      "kicker": "Next quarter",
+      "title": "3 new roasteries",
+      "dots": 3
+    }
+  ]
+}
